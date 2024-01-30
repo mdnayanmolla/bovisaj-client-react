@@ -2,6 +2,8 @@
 import { createBrowserRouter} from "react-router-dom";
 import Main from "../layout/Main";
 import Home from "../pages/Home/Home/Home";
+import Explore from "../pages/Explore/Explore";
+
 const router = createBrowserRouter([
       {
         path: "/",
@@ -10,6 +12,10 @@ const router = createBrowserRouter([
           {
             path: '/',
             element: <Home></Home>,
+          },
+          {
+            path:'/parallax',
+            element: <Explore></Explore>
           }
         ]
       },

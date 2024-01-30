@@ -1,18 +1,22 @@
 
 import bannerImg from '../../../assets/subject-2.png'
-// import shadawImg from '../../../assets/lapImage.png'
+import BannerParallaxRight from './BannerParallaxRight/BannerParallaxRight';
+
 
 const Banner = () => {
+  
+ 
   const containerStyle = {
-    background: 'linear-gradient(rgba(255,255,255,.05), #fff)',
+    background: 'linear-gradient(rgba(255,255,255,.01), #fff)',
   };
   return (
-    <div className='relative h-screen w-full -z-50'>
-      <div className='absolute h-screen w-[50%] bottom-0 right-32 top-8 scale-125  bg-no-repeat'>
-        <img src={bannerImg} alt="" className='h-screen w-full -z-10' />
+    <div className='relative  h-screen w-full -z-50' >
+      <div className='absolute w-[50%] bottom-0 right-32 top-10 scale-125 bg-no-repeat'>
+        <img src={bannerImg} alt="" className='w-full -z-10' />
       </div>
+     
       <div>
-        <div className={`p-10 absolute -bottom-[350px] h-full w-full left-0 z-10 shadow-[100px_35px_0_15px_rgba(255,255,255,0.8)] `} style={containerStyle}></div>
+        <div className={`p-10 absolute -bottom-[82px] h-16 w-full left-0 z-10`} style={containerStyle}></div>
       </div>
       <div className='absolute top-[98px] left-[8%] z-50'>
         <h2 className='font-Raleway text-6xl font-semibold tracking-widest text-[#496558] uppercase'>
@@ -23,8 +27,9 @@ const Banner = () => {
           PROGRAM TO YOUR ROUTINE<br></br>
           FOR A YOUNGER RADIANT YOU</p>
       </div>
-      
+      <BannerParallaxRight></BannerParallaxRight>
     </div>
+
   );
 };
 
