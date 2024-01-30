@@ -4,6 +4,8 @@ import BannerButton from "../Banner/BannerButton/BannerButton";
 // import BookConsaltation from "../BookConsaltation/BookConsaltation";
 import FreeClass from "../FreeClass/FreeClass";
 import Gallery from "../Gallery/Gallery";
+import OfferClass from "../OfferClass/OfferClass";
+import OurCommunity from "../OurCommunity/OurCommunity";
 
 const Home = () => {
 
@@ -18,6 +20,8 @@ const Home = () => {
                 </Marquee>
             </div>
             <FreeClass></FreeClass>
+            <OurCommunity></OurCommunity>
+            <OfferClass></OfferClass>
             <Gallery></Gallery>
               {/* <BookConsaltation></BookConsaltation> */}
         </div>
