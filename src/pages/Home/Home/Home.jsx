@@ -1,7 +1,7 @@
 import Banner from "../Banner/Banner";
 import Marquee from "react-fast-marquee";
 import BannerButton from "../Banner/BannerButton/BannerButton";
-// import BookConsaltation from "../BookConsaltation/BookConsaltation";
+import BookConsaltation from "../BookConsaltation/BookConsaltation";
 import FreeClass from "../FreeClass/FreeClass";
 import Gallery from "../Gallery/Gallery";
 import OfferClass from "../OfferClass/OfferClass";
@@ -20,10 +20,10 @@ const Home = () => {
                 </Marquee>
             </div>
             <FreeClass></FreeClass>
+              <BookConsaltation></BookConsaltation>
             <OurCommunity></OurCommunity>
             <OfferClass></OfferClass>
             <Gallery></Gallery>
-              {/* <BookConsaltation></BookConsaltation> */}
         </div>
     );
 };

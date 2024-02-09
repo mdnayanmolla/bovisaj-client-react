@@ -32,12 +32,13 @@ const OurCommunity = () => {
     const yBg2 = useTransform(scrollYProgress, [0, 1], ["0%", "-800%"])
     const swiperRef = useRef();
     return (
-        <div className="px-[8%] relative pb-24">
+        <div className="px-[8%] relative pb-24 pt-7 bg-white">
             <SectionTitle titleHeadingTop={'Hear from'} titleHeadingBottom={'our Community'}></SectionTitle>
-            <motion.div className=' -z-10 h-24 w-24 absolute bottom-[0px] right-20' style={{ y: yBg2 }}>
+            
+            <motion.div className='-z-10 h-24 w-24 absolute bottom-[0px] right-20' style={{ y: yBg2 }}>
                 <img src={goldenImg} alt="" className='w-full' />
             </motion.div>
-            <motion.div className=' z-10 h-40 w-40 absolute top-0 -left-20 overflow-hidden' style={{ y: yBg1 }}>
+            <motion.div className='z-10 h-40 w-40 absolute top-0 -left-20 overflow-hidden' style={{ y: yBg1 }}>
                 <img src={parallaxGreen} alt="" className='w-full' />
             </motion.div>
             <div className="relative px-11  flex items-center">
