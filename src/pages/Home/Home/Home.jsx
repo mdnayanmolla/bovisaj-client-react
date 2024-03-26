@@ -14,16 +14,16 @@ const Home = () => {
         <div>
             <Banner></Banner>
             <BannerButton></BannerButton>
-            <div className="bg-[#e6dcd4] py-2 md:py-5 z-50 -mt-10 md:mt-24 lg:mt-24  xl:mt-16">
+            <div className="bg-[#e6dcd4] py-2 md:py-5 z-50 mt-0 md:mt-24 lg:mt-36 xl:mt-20">
                 <Marquee>
-                    <p className="text-[#496558] text-sm md:text-[21px] font-poppins">lift your face&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;shift your energy&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;look younger&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reverse ageing&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;improve your face symmetry&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;boost your confidence&nbsp;</p>
+                    <p className="text-[#496558] text-sm md:text-[18px] font-poppins">lift your face&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;shift your energy&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;look younger&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reverse ageing&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;improve your face symmetry&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;boost your confidence&nbsp;</p>
                 </Marquee>
             </div>
-            {/* <FreeClass></FreeClass> */}
-              {/* <BookConsaltation></BookConsaltation> */}
-            {/* <OurCommunity></OurCommunity> */}
-            {/* <OfferClass></OfferClass> */}
-            {/* <Gallery></Gallery> */}
+            <FreeClass></FreeClass>
+              <BookConsaltation></BookConsaltation>
+            <OurCommunity></OurCommunity>
+            <OfferClass></OfferClass>
+            <Gallery></Gallery>
         </div>
     );
 };

@@ -1,0 +1,42 @@
+[
+    {
+      "id": 1,
+      "question": "THE ULTIMATE NATURAL FACE-LIFT",
+      "ans": "Face yoga is a series of exercises that focus on the muscles of the face. Its practices aim to promote a youthful appearance, enhance skin health, and increase facial muscle tone. Regular practice can lead to tighter, more radiant skin."
+    },
+    {
+      "id": 2,
+      "question": "CAN I HURT MYSELF DOING THIS?",
+      "ans": "Technically, you can hurt yourself anywhere doing anything, so as much as we would like to say no, unfortunately, you do need to adapt our suggestions to suit you.Have you recently had fillers, threads, a face lift or Botox?Definitely go speak to a medical professional before doing any facial exercises."
+    },
+    {
+      "id": 3,
+      "question": "NEW TO FACE YOGA - HOW OFTEN SHOULD I PRACTICE EACH EXERCISE?",
+      "ans": "To start, give yourself an achievable goal like 5 minutes a day. If you can work up to 20 minutes, three times a week, you will see huge results.But remember consistency is key. So do what works for you – something is better than nothing."
+    },
+    {
+      "id": 4,
+      "question": "I HAVE A GENETIC DOUBLE CHIN - CAN I STILL REDUCE IT?",
+      "ans": "YES! Double chins, pronounced smile lines, worry lines – just because your parents have them doesn’t mean you need to have them.In fact – look at your parent’s faces and see what area you would like to work on preemptively so you can stop any possible problems before they start to develop."
+    },
+    {
+        "id": 5,
+        "question": "MY MUSCLES DON'T MOVE LIKE YOURS - HELP?",
+        "ans": "You don’t go to yoga class and try a wall-less handstand on the first try, do you? Or try to pick up 3 times your bodyweight the first time in the gym?It’s all about consistent practice. Keep at it and you’ll be doing your cheek squats like a pro in no time!"
+      },
+      {
+        "id": 6,
+        "question": "CAN I DO THIS COURSE IF I HAVE FILLERS AND BOTOX?",
+        "ans": "Yes, you can. As our techniques are non-invasive the movements work well with a range of different complimentary facial treatments.With botox and fillers we highly recommend you wait at least 2 weeks after treatment before starting face fitness. And, if you can, please get the A-OK from your face specialist first."
+      },
+      {
+        "id": 7,
+        "question": "SOME OF THESE EXERCISES ARE HARD - DO I HAVE TO DO THEM ALL?",
+        "ans": "You don’t have to do all the exercises, and you can cherry-pick the exercises to work on areas you think need the most help.However, I would strongly suggest, at least in the beginning, you learn to do them all as it will be a huge advantage when you get to the harder classes – and your results will be supercharged!"
+      },
+      {
+        "id": 8,
+        "question": "CAN I DO THIS COURSE IF I'VE HAD A FACE LIFT OR THREADS INSTALLED?",
+        "ans": "Yes – but please wait at least 6 months after your treatment for your face to heal. And then please go see your surgeon to discuss any exercises which should not be performed depending on your personal surgery and where you are in your recovery. Getting your surgeon or physicians advice and approval is very important in this case."
+      }
+  ]

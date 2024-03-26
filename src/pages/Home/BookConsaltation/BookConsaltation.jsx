@@ -20,27 +20,22 @@ const BookConsaltation = () => {
   })
  const yBg1 = useTransform(scrollYProgress, [0,1],["0%","200%"])
  const yBg2 = useTransform(scrollYProgress, [0,1],["0%","-800%"])
- const scale = useTransform(scrollYProgress, [0, 1], [.9, 1.7]);
+ const scale = useTransform(scrollYProgress, [0, 1], [1, 1.7]);
   return (
     <div>
       <SectionTitle titleHeadingTop={'Experience our'} titleHeadingBottom={'One-on-one'} titlePragraph={`NEED A MORE PERSONAL EXPERIENCE? BOOK YOUR 60 MINUTES TRANSFORMATIVE 1:1 SESSION WITH PERSONALIZED ADVICE AND COACHING WITH LEILA AND HER COACHES`}></SectionTitle>
       <div className='relative  flex justify-center items-center w-full mt-20' >
       <div className={`p-10 absolute -bottom-[50px] h-44 w-full left-0 z-10`} style={containerStyle}></div>
     
-      <motion.div className='flex justify-center items-center w-full '
-        style={{ scale }}
-      >
-        <motion.div className='flex justify-center items-center w-full'
-          style={{
-            scaleY: scrollYProgress
-          }}
-        />
-        <img src={exploreImg} alt="" className='w-full -mb-8' />
+      <motion.div className='flex justify-center items-center w-full 'style={{ scale }}>
+        <motion.div className='flex justify-center items-center w-full overflow-hidden'style={{scaleY: scrollYProgress}}/>
+         <img src={exploreImg} alt="" className='w-full -mb-8'/>
       </motion.div>
-        <motion.div className=' z-10 h-32 w-32 absolute top-32 right-4' style={{y:yBg1 }}>
+
+        <motion.div className=' z-10 h-32 w-32 absolute top-32 right-0 xl:right-4' style={{y:yBg1 }}>
             <img src={greenImg} alt="" className='w-full' />
         </motion.div>
-        <motion.div className='h-52 w-52 absolute bottom-0 -left-32' style={{y:yBg2}}>
+        <motion.div className='h-20 w-20 xl:h-52 xl:w-52 absolute bottom-0 -left-32' style={{y:yBg2}}>
           <img src={ goldenImg} alt="" className='w-full' />
         </motion.div>
         <div className='absolute top-4'> 

@@ -15,7 +15,7 @@ const Banner = () => {
         <img src={bannerImg} alt="" className='w-full -z-10' />
       </div>
       <div>
-        <div className={`p-10 absolute -bottom-0 md:-bottom-[90px] lg:-bottom-[100px] h-16 w-full left-0 z-10`} style={containerStyle}></div>
+        <div className={`p-10 absolute -bottom-[10px] md:-bottom-[98px] lg:-bottom-[150px] xl:-bottom-[100px] h-16 w-full left-0 z-10`} style={containerStyle}></div>
       </div>
       <div className='absolute top-[80px] md:top-[130px] lg:top-[98px] left-[4%] lg:left-[8%] z-50'>
         <h2 className='font-Raleway text-3xl md:text-4xl lg:text-6xl font-semibold tracking-widest text-[#496558] uppercase'>

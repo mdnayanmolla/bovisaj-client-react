@@ -23,7 +23,7 @@ const NavBar = () => {
     }, [])
 
     return (
-        <div className={`${sticky ? "w-full duration-500 transition-all bg-opacity-40 bg-gray-100 backdrop-filter backdrop-saturate-200 backdrop-blur-3xl" : "w-full"}  bg-opacity-5 bg-[#f6f4f3] fixed py-2 md:py-4 px-[4%] lg:px-[8%] z-50`}>
+        <div className={`${sticky ? "w-full duration-500 transition-all bg-opacity-40 bg-gray-100 backdrop-filter backdrop-saturate-200 backdrop-blur-3xl" : "w-full"}  bg-opacity-5 bg-[#f6f4f3] fixed py-2 md:py-4 px-[4%] lg:px-[2%] xl:px-[8%]  z-50`}>
             <div >
                 <div className="flex py-1 md:py-3 justify-between items-center">
                     <div className="">
@@ -35,13 +35,13 @@ const NavBar = () => {
                     <div className="hidden lg:block">
                         <ul className="lg:flex uppercase">
                             <Link to='/parallax'><li className="mr-8 text-[#496558] hover:text-white duration-300 transition-all">EXPLORE</li></Link>
-                            <Link><li className="mr-8 text-[#496558] hover:text-white duration-300 transition-all">CONSULTATION</li></Link>
-                            <Link><li className="mr-8 text-[#496558] hover:text-white duration-300 transition-all">PRICING</li></Link>
-                            <Link><li className="mr-8 text-[#496558] hover:text-white duration-300 transition-all">ABOUT</li></Link>
+                            <Link to='/coaching'><li className="mr-8 text-[#496558] hover:text-white duration-300 transition-all">CONSULTATION</li></Link>
+                            <Link to='/priching'><li className="mr-8 text-[#496558] hover:text-white duration-300 transition-all">PRICING</li></Link>
+                            <Link to='/about'><li className="mr-8 text-[#496558] hover:text-white duration-300 transition-all">ABOUT</li></Link>
                         </ul>
                     </div>
                     {/* Responsive Menu */}
-                    <div className="block md:hidden absolute top-full left-0 bg-[#496558] w-full ">
+                    <div className="hidden md:hidden absolute top-full left-0 bg-[#496558] w-full ">
                         <ul className="lg:flex uppercase">
                             <Link to='/parallax'><li className="py-3 px-4 text-[#fff] hover:text-[#496558] duration-300 transition-all">EXPLORE</li></Link>
                             <Link><li className="py-3 px-4 text-[#fff] hover:bg-[#f6f4f3] hover:text-[#496558] duration-300 transition-all">CONSULTATION</li></Link>

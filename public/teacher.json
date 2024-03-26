@@ -1,0 +1,22 @@
+[
+    {
+      "id": 1,
+      "image": "https://i.ibb.co/CPFvkSR/teacher1.jpg"
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co/LtRjfvN/teacher2.jpg"
+    },
+    {
+      "id": 3,
+      "image": "https://i.ibb.co/0Bx7JHt/teacher3.jpg"
+    },
+    {
+      "id": 4,
+      "image": "https://i.ibb.co/ts74MQ5/teacher4.jpg"
+    },
+    {
+        "id": 5,
+        "image": "https://i.ibb.co/xGTBBM4/teacher5.jpg"
+      }
+  ]
